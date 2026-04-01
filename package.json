@@ -1,0 +1,13 @@
+{
+  "name": "blogs8787api.js",
+  "version": "0.0.1",
+  "description": "Npm library for interacting with the Blogs8787 api",
+  "main": "index.js",
+  "homepage": "https://github.com/shaman2016scratch/blogs8787api.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaman2016scratch/blogs8787api.js.git"
+  },
+  "author": "Shaman2016scratch",
+  "license": "MIT"
+}
