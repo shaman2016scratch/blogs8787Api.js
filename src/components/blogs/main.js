@@ -7,7 +7,7 @@ const blogs = {
             'setDescription': async function(value) {},
             'getDescription': async function() {},
             'getArticles': new Function(`
-                let blogsMeta = await fetch('https://shaman2016-api.vercel.app/blogs/blogs')
+                let blogsMeta = await fetch('https://api-shaman2016.vercel.app/blogs/blogs')
                 blogsMeta = await blogs.json()
                 return blogsMeta[${id}].articles
             `),
