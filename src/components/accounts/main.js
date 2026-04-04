@@ -1,9 +1,9 @@
 import { auth } from './auth'
-import { profile } from './profile'
+import { actions } from './actions'
 
 const accounts = {
     auth,
-    profile
+    actions
 }
 
 export default accounts
