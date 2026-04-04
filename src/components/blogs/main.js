@@ -7,9 +7,11 @@ const blogs = {
             'setDescription': async function(value) {},
             'getDescription': async function() {},
             'getArticles': new Function(`
-                let blogsMeta = await fetch('https://api-shaman2016.vercel.app/blogs/blogs')
-                blogsMeta = await blogs.json()
-                return blogsMeta[${id}].articles
+                return async function() {
+                    let blogsMeta = await fetch('https://api-shaman2016.vercel.app/blogs/blogs')
+                    blogsMeta = await blogs.json()
+                    return blogsMeta[${id}].articles
+                }
             `),
             'newArticle': async function(name) {}
         }
