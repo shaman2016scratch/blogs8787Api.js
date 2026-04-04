@@ -9,5 +9,6 @@ const blogs8787api = {
         return resAuthCode.result
     },
     accounts,
-    blogs
+    blogs,
+    info
 }
