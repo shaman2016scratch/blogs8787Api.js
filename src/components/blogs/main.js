@@ -6,7 +6,11 @@ const blogs = {
             'getName': async function() {},
             'setDescription': async function(value) {},
             'getDescription': async function() {},
-            'getArticles': async function() {},
+            'getArticles': new Function(`
+                let blogsMeta = await fetch('https://shaman2016-api.vercel.app/blogs/blogs')
+                blogsMeta = await blogs.json()
+                return blogsMeta[${id}].articles
+            `),
             'newArticle': async function(name) {}
         }
     }
