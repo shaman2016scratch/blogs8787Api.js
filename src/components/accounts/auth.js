@@ -1,6 +1,3 @@
-const auth = {
-    login: async function(scratch, name) {},
-    singin: async function(scratch, name) {}
-}
+const auth = async function(id, scratch) {}
 
 export default auth
