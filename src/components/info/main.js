@@ -3,4 +3,4 @@ const info = {
   'getBlogDescription': async function(blog) {}
 }
 
-export default info
+export { info }
