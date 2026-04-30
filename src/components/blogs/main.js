@@ -18,4 +18,4 @@ const blogs = {
     }
 }
 
-export default blogs
+export { blogs }
