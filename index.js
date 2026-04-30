@@ -12,3 +12,5 @@ const blogs8787api = {
     blogs,
     info
 }
+
+export default blogs8787api
