@@ -10,7 +10,13 @@ const blogs8787api = {
     },
     accounts,
     blogs,
-    info
+    info,
+    recomendations: async function() {
+        const request = await (await fetch('https://api-shaman2016.vercel.app/blogs/recomendations')).json()
+        return {
+            list: request.list
+        }
+    }
 }
 
 export default blogs8787api
