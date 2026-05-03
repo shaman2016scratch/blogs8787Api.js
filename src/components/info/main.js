@@ -1,6 +1,7 @@
 const info = {
-  'getUserDescription': async function(blog) {},
-  'getBlogDescription': async function(blog) {}
+  'getUserDescription': async function(user) {},
+  'getBlogDescription': async function(blog) {},
+  'getListBlogsByUser': async function(user) {}
 }
 
 export { info }
