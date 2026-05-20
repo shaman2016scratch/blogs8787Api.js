@@ -2,9 +2,9 @@ const blogs = {
     'create': async function(name, auth) {},
     'join': async function(id, auth) {
         return {
-            setName: async function(name) {},
+            setName: new Function(["name"], ``),
             getName: async function() {},
-            setDescription: async function(value) {},
+            setDescription: new Function(["description"], ``),
             getDescription: async function() {},
             getArticles: new Function(`
                 return async function() {
@@ -13,7 +13,7 @@ const blogs = {
                     return blogsMeta[${id}].articles
                 }
             `),
-            newArticle: async function(name) {}
+            newArticle: new Function(["name", "content"], ``)
         }
     }
 }
