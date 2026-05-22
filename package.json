@@ -1,6 +1,6 @@
 {
   "name": "blogs8787api.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Npm library for interacting with the Blogs8787 api",
   "main": "index.js",
   "homepage": "https://github.com/shaman2016scratch/blogs8787api.js",
